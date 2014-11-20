@@ -12,8 +12,8 @@ css_dir = "public/stylesheets"
 
 # Local development paths
 sass_dir = "sass"
-images_dir = "source/images"
-fonts_dir = "source/fonts"
+images_dir = "_src/images"
+fonts_dir = "_src/fonts"
 
 line_comments = false
 output_style = :compressed
