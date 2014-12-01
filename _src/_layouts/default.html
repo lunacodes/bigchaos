@@ -2,9 +2,11 @@
 {% include head.html %}
 <body>
   <header role="banner">{% include header.html %}</header>
-  <div id="navigation">
-    <nav role="navigation">{% include navigation.html %}</nav>
-  </div>
+  {% if page.navigation !='none' %}
+    <div id="navigation">
+      <nav role="navigation">{% include navigation.html %}</nav>
+    </div>
+  {% endif %}
   <div id="body" {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
     <div id="main">
       <div id="content">
