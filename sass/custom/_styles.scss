@@ -1,6 +1,37 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+// MMcc additions
+.horizline {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px !important;
+  padding-top: 25px;
+  clear: both;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.bio {
+  display: inline;
+
+}
+
+.headshot {
+  display: inline;
+  float: left;
+  padding-right: 20px;
+}
+
 /*
 -------------------------------------------------------------------------
 Author: Vladi Gleba (vladigleba.com)
@@ -148,7 +179,7 @@ body {
   -webkit-text-size-adjust: none; /* prevent mobile safari from resizing text */
   background-color: #fff;
   color: $text-color;
-  text-align: center;
+  //text-align: center;
   width: 54%;
   margin: 0 auto;
 }
@@ -715,7 +746,7 @@ article {
     > header {
       margin: 44.401px 0;
       margin: 2.618rem 0;
-      text-align: center;
+      //text-align: center;
     }
   }
 
