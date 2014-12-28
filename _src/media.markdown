@@ -4,7 +4,7 @@ date: 2014-11-23 21:50
 sidebar: false
 comments: false
 sharing: true
-footer: true
+footer: false
 ---
 Here are videos of us playing things.
 

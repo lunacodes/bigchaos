@@ -2,6 +2,10 @@
 nav {
   margin-bottom: 3em !important;
   text-align: left;
+  img {
+    vertical-align: text-bottom;
+    padding-right: 5px;
+  }
 }
 body > header {
   margin-bottom: 1.5em !important;
